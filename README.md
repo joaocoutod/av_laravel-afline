@@ -1,5 +1,5 @@
-### Sobre a Accordous
-##### Não perca mais tempo com seus contratos.
+### Sobre a NGestor
+##### Não perca mais tempo procurando seu técnico.
 Somos uma empresa de tecnologia voltada a simplificação de processos burocráticos! Desde a concepção até a cobrança de contratos, seja ele de imóveis, acordo, prestação de serviços, entre outros.
 
 
@@ -9,7 +9,6 @@ O objetivo deste teste é entendermos um pouco mais sobre seus conhecimentos de 
 ##### Requisitos
 - PHP 7.1+
 - Laravel (Preferência 5.8+)
-- Vue.JS
 - Docker Engine
 
 ##### Orientações
@@ -40,7 +39,6 @@ Para que o cadastro ocorra deverá haver validações em dois níveis. Frontend 
 
 ##### Funcionalidade 3:
   - Contexto: permitir a remoção de uma propriedade via chamada assíncrona com atualização posterior da lista de propriedades.
-  - Observação: a remoção de uma propriedade deverá ser virtual.
 
 ##### Funcionalidade 4:
   - Contexto: Criação de um contrato que permita associação com uma propriedade. Um contrato possui os seguintes campos:
@@ -58,10 +56,7 @@ Para que o cadastro ocorra deverá haver validações em dois níveis. Frontend 
 
 
 ### Extras
-- Job: deve-se utilizar alguma forma de job;
-- Teste unitário de backend;
-- Teste de integração backend;
-- SPA.
+
 - Usabilidade (A usabilidade das funcionalidades fica a cargo do desenvolvedor) :D
 
 
