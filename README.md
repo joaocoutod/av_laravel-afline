@@ -1,58 +1,97 @@
-### Sobre a NGestor
-##### Não perca mais tempo procurando seu técnico.
-Somos uma empresa de tecnologia voltada a simplificação de processos de gestão de ordem de serviços! Desde a criação até a conclusão do serviço, seja ele de telecons, prestação de serviços, entre outros.
+### Passo a passo
+Clone Repositório
+```sh
+git clone https://github.com/joaocoutod/laravel-test-backend.git my-project
+
+```
+```sh
+cd my-project/
+```
 
 
-##### Teste Full Stack Laravel
-O objetivo deste teste é entendermos um pouco mais sobre seus conhecimentos de Frontend e Backend no Laravel.
-
-##### Requisitos
-- PHP 7.1+
-- Laravel (Preferência 5.8+)
-- Docker Engine
-
-##### Orientações
-Faça um fork deste projeto.
-
-Para facilitar o seu desenvolvimento, nós disponibilizamos um ``docker-compose.yml`` com o serviços que utilizamos habitualmente no nosso dia a dia.
-
-#### O Desafio
-Simular o cadastro de um cliente e criar uma ordem de serviço para o mesmo.
-
-##### Funcionalidade 1:
-  - Permitir o cadastro de um CLIENTE com algumas características. 
-  - O cadastro de um CLIENTE deve possuir:
-  - Nome, e-mail, rua, número, complemento, bairro, cidade, estado;
-
-Para que o cadastro ocorra deverá haver validações em dois níveis. Frontend e backend:
-- 1 - nome, e-mail, rua, bairro, cidade e estado são campos obrigatórios;
-- 2 - e-mail deverá ser validado;
-
-##### Funcionalidade 2:
-  - Contexto: Permitir visualização dos SERVIÇOS cadastrados.
-    Os dados dos SERVIÇOS deverão ser carregados via request assíncrona. Esses dados deverão ser exibidos numa tabela e ao menos uma das colunas serem ordenáveis.
-    Dados que deverão ser exibidos na tabela:
-  - Nome do serviço;
-  - Status (Ativo / Desativado)
-  - Coluna para ações (remover).
-
-##### Funcionalidade 3:
-  - Contexto: permitir a remoção de um SERVIÇO via chamada assíncrona com atualização posterior da lista de SERVIÇOS.
-
-##### Funcionalidade 4:
-  - Contexto: Criação de uma ORDEM DE SERVICO que permita associação com um CLIENTE. Uma ORDEM DE SERVIÇO possui os seguintes campos:
-  - Data Abertura (deverá ser selecionável);
-  - Serviço (deverá ser selecionável);
-
-##### Regras específicas sobre a criação de uma ORDEM DE SERVIÇO:
-
-- Todos os campos da  ORDEM DE SERVIÇO são obrigatórios;
+Crie o Arquivo .env
+```sh
+cp .env.example .env
+```
 
 
-### Extras
+Atualize as variáveis de ambiente do arquivo .env
+```dosini
+APP_NAME=Dev_teste
+APP_URL=http://localhost:8989
 
-- Usabilidade (A usabilidade das funcionalidades fica a cargo do desenvolvedor) :D
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=dev_teste
+DB_USERNAME=root
+DB_PASSWORD=root
+
+CACHE_DRIVER=redis
+QUEUE_CONNECTION=redis
+SESSION_DRIVER=redis
+
+REDIS_HOST=redis
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+```
 
 
-### Entrega
-Deixar um repositório público e nos enviar por e-mail - o mesmo e-mail que foi enviado o teste.
+Suba os containers do projeto
+```sh
+docker-compose up -d
+```
+
+
+Acesse o container app com o bash
+```sh
+docker-compose exec app bash
+```
+
+
+Instale as dependências do projeto
+```sh
+composer install
+```
+
+
+Gere a key do projeto Laravel
+```sh
+php artisan key:generate
+```
+
+Suba as migrates
+```sh
+php artisan migrate
+```
+
+Acesse o projeto
+[http://localhost:8989](http://localhost:8989)
+
+
+<hr>
+
+### Lista de ordens de serviço (criar e exlui ordens)
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/b55e6d28efc0d3c52ac62587dac59c76708905bb/public/img/img_home.PNG" alte="home">
+
+
+### Solicita Serviço
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f0eca03830718a444c1629766fcbfba8c27ea067/public/img/img_inserir_solicitacao.PNG" alte="home">
+
+<hr>
+
+### Lista de Clientes (cria, edita e exlui clientes)
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/b55e6d28efc0d3c52ac62587dac59c76708905bb/public/img/img_clientes.PNG" alte="clientes">
+
+
+### Criar Novo Cliente
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f0eca03830718a444c1629766fcbfba8c27ea067/public/img/img_inserir_clientes.PNG" alte="clinetes">
+
+<hr>
+
+### Lista de Serviços (cria, edita e exlui clientes)
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/b55e6d28efc0d3c52ac62587dac59c76708905bb/public/img/img_clientes.PNG" alte="serviços">
+
+
+### Criar Novo Serviço
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f0eca03830718a444c1629766fcbfba8c27ea067/public/img/img_inserir_clientes.PNG" alte="serviços">
