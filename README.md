@@ -72,26 +72,26 @@ Acesse o projeto
 <hr>
 
 ### Lista de ordens de serviço (criar e exlui ordens)
-<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/b55e6d28efc0d3c52ac62587dac59c76708905bb/public/img/img_home.PNG" alte="home">
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f08f7182fe049d3b99848f87121276dc8a20b86d/public/img/img_home.PNG" alte="home">
 
 
 ### Solicita Serviço
-<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f0eca03830718a444c1629766fcbfba8c27ea067/public/img/img_inserir_solicitacao.PNG" alte="home">
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f08f7182fe049d3b99848f87121276dc8a20b86d/public/img/img_inserir_solicitacao.PNG" alte="home">
 
 <hr>
 
 ### Lista de Clientes (cria, edita e exlui clientes)
-<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/b55e6d28efc0d3c52ac62587dac59c76708905bb/public/img/img_clientes.PNG" alte="clientes">
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f08f7182fe049d3b99848f87121276dc8a20b86d/public/img/img_clientes.PNG" alte="clientes">
 
 
 ### Criar Novo Cliente
-<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f0eca03830718a444c1629766fcbfba8c27ea067/public/img/img_inserir_clientes.PNG" alte="clinetes">
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f08f7182fe049d3b99848f87121276dc8a20b86d/public/img/img_inserir_clientes.PNG" alte="clinetes">
 
 <hr>
 
 ### Lista de Serviços (cria, edita e exlui clientes)
-<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/b55e6d28efc0d3c52ac62587dac59c76708905bb/public/img/img_clientes.PNG" alte="serviços">
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f08f7182fe049d3b99848f87121276dc8a20b86d/public/img/img_clientes.PNG" alte="serviços">
 
 
 ### Criar Novo Serviço
-<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f0eca03830718a444c1629766fcbfba8c27ea067/public/img/img_inserir_clientes.PNG" alte="serviços">
+<img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f08f7182fe049d3b99848f87121276dc8a20b86d/public/img/img_inserir_clientes.PNG" alte="serviços">
