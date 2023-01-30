@@ -63,7 +63,7 @@ Acesse o projeto
 
 <hr>
 
-### Lista de ordens de serviço (criar e exlui ordens)
+### Lista de ordens de serviço (criar e exclui ordens)
 <img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f08f7182fe049d3b99848f87121276dc8a20b86d/public/img/img_home.PNG" alte="home">
 
 
@@ -72,7 +72,7 @@ Acesse o projeto
 
 <hr>
 
-### Lista de Clientes (cria, edita e exlui clientes)
+### Lista de Clientes (cria, edita e exclui clientes)
 <img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f08f7182fe049d3b99848f87121276dc8a20b86d/public/img/img_clientes.PNG" alte="clientes">
 
 
@@ -81,7 +81,7 @@ Acesse o projeto
 
 <hr>
 
-### Lista de Serviços (cria, edita e exlui clientes)
+### Lista de Serviços (cria, edita e exclui clientes)
 <img width="100%" src="https://github.com/joaocoutod/laravel-test-backend/blob/f08f7182fe049d3b99848f87121276dc8a20b86d/public/img/img_clientes.PNG" alte="serviços">
 
 
