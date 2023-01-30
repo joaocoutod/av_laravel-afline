@@ -15,7 +15,7 @@ cp .env.example .env
 ```
 
 
-Atualize as variáveis de ambiente do arquivo .env
+Atualize as variáveis de ambiente do arquivo .env (opcional)
 ```dosini
 APP_NAME=Dev_teste
 
